@@ -67,7 +67,7 @@ function Home() {
               <i className="ri-close-large-line text-zinc-200"></i>
             )}
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full">
             <div className="w-[100%] pt-4 sm:w-[50%] ">
               <Search />
             </div>

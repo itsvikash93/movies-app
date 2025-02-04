@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import noimage from "/noimage.webp";
 
-function Search({ width }) {
+function Search() {
   const [query, setQuery] = useState("");
   const [searches, setSearches] = useState([]);
   // console.log(query);
